@@ -46,7 +46,7 @@ export function Footer() {
         <div className="container-x py-5 flex flex-col md:flex-row justify-between text-xs opacity-70 gap-2">
           <p>© {new Date().getFullYear()} River Steels. All rights reserved.</p>
           <a href="https://cre8digi.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-accent">
-            © {new Date().getFullYear()} Developed By Cre8digi The Digital Agency
+            © {new Date().getFullYear()} Developed By Cre8digi - The Digital Agency
           </a>
           <p>Manufacturers, Stockists & Suppliers of Industrial Raw Materials.</p>
         </div>
