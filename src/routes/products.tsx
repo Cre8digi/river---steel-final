@@ -8,7 +8,7 @@ import { PageHeader } from "./about";
 import img2 from "@/assets/2.jpg";
 import img3 from "@/assets/3.webp";
 import img4 from "@/assets/4.jpg";
-import img5 from "@/assets/5.png";
+import img5 from "@/assets/5.jpg";
 import img6 from "@/assets/6.png";
 import img7 from "@/assets/7.webp";
 import img8 from "@/assets/8.jpg";
@@ -30,7 +30,7 @@ const productImages: Record<string, string> = {
   "alloy-steel": img2,
   "carbon-steel": img3,
   "monel": img4,
-  "inconel": img5,
+  "Plates & Sheets": img5,
   "incoloy": img6,
   "hastelloy": img7,
   "duplex": img8,
@@ -52,7 +52,7 @@ export const Route = createFileRoute("/products")({
   head: () => ({
     meta: [
       { title: "Products — Stainless Steel, Alloys, Pipes & Fittings | River Steels" },
-      { name: "description", content: "Browse our complete catalogue: Stainless, Alloy, Carbon Steel, Monel, Inconel, Incoloy, Hastelloy, Duplex, Super Duplex, pipes, fittings, flanges." },
+      { name: "description", content: "Browse our complete catalogue: Stainless, Alloy, Carbon Steel, Monel, Plates & Sheets, Incoloy, Hastelloy, Duplex, Super Duplex, pipes, fittings, flanges." },
       { property: "og:title", content: "Product Catalogue — River Steels" },
       { property: "og:description", content: "Complete range of industrial raw materials and pipe products." },
       { property: "og:url", content: "/products" },
@@ -73,7 +73,7 @@ function Products() {
 
   return (
     <>
-  
+
 
       <PageHeader title="Our Products" subtitle="A complete catalogue of industrial raw materials — engineered to international standards." />
       <section className="section">
@@ -115,7 +115,15 @@ function Products() {
                     <div className="text-xs text-accent font-semibold uppercase tracking-wider">{p.category}</div>
                     <h3 className="mt-2 text-xl font-bold">{p.name}</h3>
                     <p className="mt-2 text-sm text-muted-foreground line-clamp-2">{p.tagline}</p>
-                    <span className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-navy group-hover:gap-3 transition-all">View details <ArrowRight className="w-4 h-4" /></span>
+                    <a
+                      href={`https://wa.me/918828471856?text=Hello, I am interested in ${p.name}. Please share more details.`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      onClick={(e) => e.stopPropagation()}
+                      className="mt-4 inline-flex items-center justify-center w-full bg-green-600 hover:bg-green-700 text-white px-4 py-3 rounded-lg font-semibold transition"
+                    >
+                      WhatsApp Inquiry
+                    </a>
                   </div>
                 </Link>
               </Reveal>

@@ -82,13 +82,13 @@ export const PRODUCTS: Product[] = [
     standards: ["ASTM B164", "ASTM B127", "ASME SB164"],
   }),
   make({
-    slug: "inconel",
-    name: "Inconel",
+    slug: "Plates & Sheets",
+    name: "Plates & Sheets",
     category: "Raw Materials",
     tagline: "Nickel-chromium superalloy for extreme heat",
     description:
-      "Inconel superalloys retain strength and oxidation resistance at very high temperatures — the workhorse of aerospace, turbines, and chemical reactors.",
-    grades: ["Inconel 600", "Inconel 601", "Inconel 625", "Inconel 718", "Inconel 800"],
+      "Plates & Sheets superalloys retain strength and oxidation resistance at very high temperatures — the workhorse of aerospace, turbines, and chemical reactors.",
+    grades: ["Plates & Sheets 600", "Plates & Sheets 601", "Plates & Sheets 625", "Plates & Sheets 718", "Plates & Sheets 800"],
     applications: ["Gas turbines", "Aerospace components", "Heat treatment fixtures", "Chemical reactors"],
     specs: [
       { label: "Service Temp", value: "Up to 1100 °C" },
@@ -224,7 +224,7 @@ export const PRODUCTS: Product[] = [
     tagline: "Forged flanges in every class & facing",
     description:
       "Weld neck, slip-on, blind, socket weld, threaded, and lap joint flanges in a wide range of materials and pressure classes.",
-    grades: ["SS 304/L/316/L", "Carbon F-, Alloy F-series", "Inconel", "Monel", "Duplex"],
+    grades: ["SS 304/L/316/L", "Carbon F-, Alloy F-series", "Plates & Sheets", "Monel", "Duplex"],
     applications: ["Refineries", "Power plants", "Shipbuilding", "Process equipment"],
     specs: [
       { label: "Size", value: "1/2″ – 48″" },
