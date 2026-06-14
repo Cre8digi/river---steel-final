@@ -137,7 +137,7 @@ function ProductPage() {
                 <a href={`tel:${SITE.primaryPhone}`} className="flex items-center gap-2 hover:text-accent"><Phone className="w-4 h-4" /> {SITE.contacts[0].phone}</a>
                 <a href={`mailto:${SITE.email}`} className="flex items-center gap-2 hover:text-accent break-all"><Mail className="w-4 h-4" /> {SITE.email}</a>
               </div>
-              <a href="/catalogue.pdf" download className="mt-5 w-full bg-accent text-accent-foreground py-3 rounded-md font-semibold inline-flex items-center justify-center gap-2"><Download className="w-4 h-4" /> Download Catalogue</a>
+              <a href="" download className="mt-5 w-full bg-accent text-accent-foreground py-3 rounded-md font-semibold inline-flex items-center justify-center gap-2"><Download className="w-4 h-4" /> Download Catalogue</a>
             </div>
 
             {related.length > 0 && (

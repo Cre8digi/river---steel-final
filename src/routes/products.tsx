@@ -16,7 +16,7 @@ import img81 from "@/assets/8.1.jpg";
 import img9 from "@/assets/9.webp";
 import img10 from "@/assets/10.webp";
 import img11 from "@/assets/11.jpg";
-import img12 from "@/assets/12.webp";
+import img12 from "@/assets/12.webp";        
 import img13 from "@/assets/13.jpg";
 import img14 from "@/assets/14.jpg";
 import img15 from "@/assets/15.webp";
